@@ -1,0 +1,151 @@
+{
+  "page": {
+    "url": "https://demoqa.com/automation-practice-form",
+    "documentTitle": "demosite",
+    "inspectedAt": "2026-10-16",
+    "inspectionMethod": "Snapshot de acessibilidade do Playwright MCP",
+    "interactionPerformed": false
+  },
+  "headingsObserved": [
+    {
+      "text": "Practice Form",
+      "level": 1,
+      "descriptionPtBr": "Título principal da página"
+    },
+    {
+      "text": "Student Registration Form",
+      "level": 5,
+      "descriptionPtBr": "Título do formulário de cadastro"
+    }
+  ],
+  "elementsObserved": [
+    {
+      "section": "Nome",
+      "sectionObserved": "Name",
+      "role": "textbox",
+      "accessibleName": "First Name"
+    },
+    {
+      "section": "Nome",
+      "sectionObserved": "Name",
+      "role": "textbox",
+      "accessibleName": "Last Name"
+    },
+    {
+      "section": "E-mail",
+      "sectionObserved": "Email",
+      "role": "textbox",
+      "accessibleName": "name@example.com"
+    },
+    {
+      "section": "Gênero",
+      "sectionObserved": "Gender",
+      "role": "radio",
+      "accessibleName": "Male"
+    },
+    {
+      "section": "Gênero",
+      "sectionObserved": "Gender",
+      "role": "radio",
+      "accessibleName": "Female"
+    },
+    {
+      "section": "Gênero",
+      "sectionObserved": "Gender",
+      "role": "radio",
+      "accessibleName": "Other"
+    },
+    {
+      "section": "Celular (10 dígitos)",
+      "sectionObserved": "Mobile(10 Digits)",
+      "role": "textbox",
+      "accessibleName": "Mobile Number"
+    },
+    {
+      "section": "Data de nascimento",
+      "sectionObserved": "Date of Birth",
+      "role": "textbox",
+      "accessibleName": null,
+      "associatedVisibleText": "Date of Birth",
+      "valueObserved": "16 Oct 2026"
+    },
+    {
+      "section": "Disciplinas",
+      "sectionObserved": "Subjects",
+      "role": "combobox",
+      "accessibleName": null
+    },
+    {
+      "section": "Passatempos",
+      "sectionObserved": "Hobbies",
+      "role": "checkbox",
+      "accessibleName": "Sports"
+    },
+    {
+      "section": "Passatempos",
+      "sectionObserved": "Hobbies",
+      "role": "checkbox",
+      "accessibleName": "Reading"
+    },
+    {
+      "section": "Passatempos",
+      "sectionObserved": "Hobbies",
+      "role": "checkbox",
+      "accessibleName": "Music"
+    },
+    {
+      "section": "Foto",
+      "sectionObserved": "Picture",
+      "role": "button",
+      "accessibleName": "Choose File"
+    },
+    {
+      "section": "Endereço atual",
+      "sectionObserved": "Current Address",
+      "role": "textbox",
+      "accessibleName": "Current Address"
+    },
+    {
+      "section": "Estado e cidade",
+      "sectionObserved": "State and City",
+      "role": "text",
+      "text": "Select State"
+    },
+    {
+      "section": "Estado e cidade",
+      "sectionObserved": "State and City",
+      "role": "combobox",
+      "accessibleName": null,
+      "associatedVisibleText": "Select State"
+    },
+    {
+      "section": "Estado e cidade",
+      "sectionObserved": "State and City",
+      "role": "text",
+      "text": "Select City"
+    },
+    {
+      "section": "Ações do formulário",
+      "role": "button",
+      "accessibleName": "Submit"
+    }
+  ],
+  "confirmedFacts": [
+    "Os títulos e controles listados apareceram no snapshot de acessibilidade durante a inspeção.",
+    "O campo Date of Birth exibia 16 Oct 2026 no momento da inspeção.",
+    "Select State foi apresentado como combobox; Select City estava visível como texto."
+  ],
+  "notTested": [
+    "Nenhum campo foi preenchido e nenhuma opção de rádio, caixa de seleção, disciplina ou localização foi selecionada.",
+    "Nenhuma imagem foi enviada e o seletor de arquivos não foi aberto.",
+    "O botão Submit não foi clicado; o comportamento de envio não foi testado.",
+    "As regras e mensagens de validação não foram testadas.",
+    "As opções disponíveis de disciplinas, estados e cidades não foram testadas."
+  ],
+  "implementedScenarios": [
+    "Exibe os títulos da página.",
+    "Exibe os campos de informações pessoais.",
+    "Exibe as opções de gênero e passatempos.",
+    "Exibe os demais controles do formulário sem enviá-lo."
+  ]
+}
